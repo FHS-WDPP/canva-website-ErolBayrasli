@@ -48,8 +48,8 @@ body {
   }
   
   .photos {
-    text-align: center;
-    padding: 2rem;
+    text-align: right;
+    padding: 6rem;
   }
   
   .photos img {
