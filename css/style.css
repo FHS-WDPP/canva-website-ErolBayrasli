@@ -29,10 +29,9 @@ body {
   }
   
   .about-images img {
-    width: 100px;
-    height: auto;
+    width: 400px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
   }
   
   .stats {
@@ -48,7 +47,7 @@ body {
   }
   
   .photos {
-    text-align: right;
+    text-align: center;
     padding: 6rem;
   }
   
