@@ -1,81 +1,97 @@
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #000;
-    color: #fff;
-    line-height: 1.6;
-  }
-  
-  header.hero {
-    text-align: center;
-    padding: 2rem;
-    border-bottom: 2px solid #444;
-  }
-  
-  .hero-images img {
-    width: 200px;
-    height: auto;
-    margin: 10px;
-    border-radius: 8px;
-  }
-  
-  .about {
-    padding: 2rem;
-  }
-  
-  .about h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .about-images img {
-    width: 400px;
-    margin: 10px;
-    border-radius: 20px;
-  }
-  
-  .stats {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    padding: 2rem;
-    background-color: #111;
-    font-size: 1rem;
-    border-top: 2px solid #444;
-    border-bottom: 2px solid #444;
-  }
-  
-  .photos {
-    text-align: center;
-    padding: 6rem;
-  }
-  
-  .photos img {
-    max-width: 90%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .contact {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .contact-images img {
-    width: 150px;
-    margin: 10px;
-    border-radius: 8px;
-  }
-  
-  .info p {
-    margin: 5px 0;
-  }
-  
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header.hero {
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 2px solid #444;
+}
+
+.hero-images img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.about {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-images img {
+  width: 300px;
+  max-width: 100%;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #111;
+  font-size: 1rem;
+  border-top: 2px solid #444;
+  border-bottom: 2px solid #444;
+}
+
+.photos {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.photos img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contact {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-images {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 1rem;
+}
+
+.contact-images img {
+  width: 150px;
+  border-radius: 8px;
+}
+
+.info p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
